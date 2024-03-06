@@ -1,0 +1,71 @@
+.activities-title {
+    padding-top: 1.0em;
+    margin-bottom: 0.2em;
+    font-size: 1.4rem;
+}
+
+.card-activities-title {
+    margin-bottom: 0.4em;
+}
+
+.card-activities-title > a {
+    font-size: 0.9rem;
+}
+
+.activity-type{
+    font-size: 0.9em;
+    color: var(--secondary-text);
+}
+
+.content {
+    margin-top: 10px;
+}
+
+.content > img {
+    height: 64px;
+    width: 64px;
+    margin-right: 1em;
+    object-fit: cover;
+}
+
+.activity-item{
+    border-bottom: 1px solid #ffffff99;
+    padding: 1em 0 1em 0;
+}
+
+#item-exception {
+    border-bottom: none;
+}
+
+.posts-activities, .activity-content {
+    text-align: justify;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reactions-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+    padding-top: 5px;
+}
+
+.expand-line {
+    height: .4em;
+}
+
+.overlay {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-end-start-radius: .8rem;
+    border-end-end-radius: .8rem;
+    /* border: solid red 1px; */
+    height: 2.8em;
+    position: absolute;
+    transition: background-color 0.3s;
+    border-top: 1px solid var(--input);
+}

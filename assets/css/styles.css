@@ -1,0 +1,131 @@
+@import './normalize.css';
+@import './section-personal-info.css';
+@import './navbar.css';
+@import './highlights.css';
+@import './activities.css';
+@import './about.css';
+@import './experiences.css';
+@import './education.css';
+@import './languages.css';
+@import './suggestions.css';
+@import './footer.css';
+
+body {
+  background-color: var(--dark-background);
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+main {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  /* overflow-x: scroll; */
+}
+
+main > div{
+  display: flex;
+  flex-direction: column;
+}
+main > .profile{
+  align-items: flex-end;
+  margin-right: 1.5rem;
+}
+
+main > .suggestions{
+  align-items: flex-start;
+}
+
+/* #card, #sidecard {
+  margin-top: 8px;
+  background-color: var(--background-card);
+  border-radius: 1.2rem;
+  line-height: 1.25;
+  padding: 0 2rem 1.5rem 2rem;
+}
+
+#card {
+  width: 780px;
+} */
+
+#card {
+  position: relative;
+  width: 780px;
+  margin-top: 8px;
+  background-color: var(--background-card);
+  border-radius: .8rem;
+  line-height: 1.25;
+  padding: 0 2rem 1.5rem 2rem;
+  border: 1px solid var(--input);
+}
+
+#sidecard {
+  margin-top: 8px;
+  background-color: var(--background-card);
+  border-radius: .8rem;
+  line-height: 1.25;
+  padding: 1rem;
+  border: 1px solid var(--input);
+}
+
+.expand {
+  display: flex;
+  justify-content: center;
+  margin: .8em;
+  color: var(--secondary-text);
+  font-weight: 300;
+  font-size: 1em;
+}
+
+.overlay:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  opacity: 1;
+  cursor: pointer;
+}
+
+.primary-button {
+  font-size: 1.0em;
+  background-color: var(--primary);
+}
+
+.secondary-button {
+  background: transparent;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.material-symbols-rounded {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 500,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+#first-suggestion {
+  border-top: 0;
+}
+
+/* @media(max-width: 1024px){
+  main{
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  main > .suggestions, main > .profile{
+    align-items: center;
+    margin-right: 0;
+  }
+} */

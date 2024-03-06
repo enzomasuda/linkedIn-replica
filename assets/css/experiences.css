@@ -1,0 +1,63 @@
+.card-experiences > h2 {
+    padding: 1em 0 1em 0;
+}
+
+.organization {
+    display: flex;
+    align-items: center;
+}
+
+.organization > img {
+    height: 48px;
+    width: 48px;
+}
+
+.organization > div {
+    margin-left: 1rem;
+}
+
+.jobs {
+    display: flex;
+    flex-direction: column;
+}
+
+.job-item {
+    display: flex;
+    align-items: center;
+}
+
+.drawning {
+    margin-top: .8rem;
+    width: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.drawning > .dot {
+    background-color: white;
+    border: solid white 1px;
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    margin: .6rem;
+}
+
+.drawning > .bar {
+    border: solid white 1px;
+    width: 1px;
+    height: 3.5rem;
+    margin-bottom: .5rem;
+}
+
+.role {
+    margin-top: .8rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    line-height: 1.4rem;
+}
+
+.expent-time, .duration, .localization {
+    color: var(--secondary-text);
+}

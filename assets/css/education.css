@@ -1,0 +1,29 @@
+.card-education > h2 {
+    padding: 1em 0 1em 0;
+}
+
+.education-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.education-item {
+    display: flex;
+    align-items: center;
+}
+
+#education-item-00 {
+    margin-bottom: 1.2rem;
+}
+
+.education-content {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4rem;
+}
+
+.institution-img > img {
+    height: 48px;
+    width: 48px;
+}

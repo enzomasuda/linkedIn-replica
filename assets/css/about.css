@@ -1,0 +1,7 @@
+.card-about > h2 {
+    padding: 1em 0 .8em 0;
+}
+
+.card-about > p {
+    text-align: justify;
+}

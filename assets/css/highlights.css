@@ -1,0 +1,75 @@
+.card.highlights {
+    font-size: 62.5%;
+    line-height: 1.25;
+    padding-bottom: 1.6rem;
+}
+
+.card-highlights-wrap > ul.highlights {
+    margin: 0 1em;
+}
+
+.highlights {
+    display: flex;
+    flex-direction: row;
+}
+
+.highlight-post {
+    /* height: 246px; */
+    height: 25em;
+    width: (100% 238px);
+    border: solid var(--secondary-text) 1px;
+    border-radius: 8px;
+    margin: 0 .4rem;
+}
+
+.highlight-title {
+    padding-top: 1.0em;
+    margin-bottom: 0.2em;
+    font-size: 1.4rem;
+}
+
+.highlight-title, h4, .post-subtitle {
+    padding-bottom: 0.4em;
+    padding-left: 1em;
+}
+
+h4 {
+    padding-top: 1em;
+    color: var(--secondary-text);
+    font-weight: 200;
+    font-size: small;
+}
+
+.post-subtitle {
+    font-size: 0.9rem;
+}
+
+#highlight-img {
+    padding-top: 0.8rem;
+    height: 10rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.post-footer {
+    padding: .5em 1em 0 1em ;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color: var(--secondary-text);
+    font-size: 1.2em;
+}
+
+.rection-number, .comments-section {
+    text-decoration: underline;
+    color: var(--secondary-text);
+}
+
+.reactions-section {
+    justify-content: center;
+}
+
+.reactions > #thumb_up, #thumb_down, #favorite {
+    font-size: 1rem;
+}
+
